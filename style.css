@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(0,0,0);
+    color: white;
+    height: 100%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.8);
+    border: 1px solid black;
+    width: fit-content;
+    text-align: center;
+    padding :30px;
+    margin-top: -20px;;
+    
+}
+img{
+    width: 100px;
+}
+#heading{
+    color: red;
+    font-size: 35px;
+}
+
+#textContent{
+	color: white;
+	width: 800px;
+	height: 65vh;
+	max-width: 1000px;
+	border: 2px solid white;
+    padding: 10px;
+    font-size: 18px;;
+}
+#textbox{
+    width: 800px;
+    max-width: 1000px;
+}
+#file{
+	float: left;
+    margin-top: -40px;
+}
+
+#controller{
+	float: right;
+		margin-top: -40px;
+}
+.button{
+	font-size: 18px;
+	height: 40px;
+	width: 100px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: blue;
+}
+.inputButton{
+	padding: 10px;	
+}

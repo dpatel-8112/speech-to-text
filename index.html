@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text - to - Speech</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body  onload="init()">
+	<div class="container">
+
+        <table>
+            <caption><img src="logo-final.png" alt="amazing"></caption>
+            <thead>
+                <tr>
+                    <th colspan="4" id="heading">Speech To Text</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr>
+            		<td id="file">
+            			<button id="start-btn" class="button" >Start</button>
+            		</td>
+            		<td id="controller">
+            			<button id="pause-btn" class="button">Pause</button>
+            		</td>
+            	</tr>
+                <tr>
+                	<td colspan="2" id="textContent"><textarea  id="textbox" cols="80" rows="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td id="instruction">Voice Recognition is OFF</td>
+                </tr>
+            </tbody>
+        </table>     
+        
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
